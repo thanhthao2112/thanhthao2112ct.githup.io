@@ -1,0 +1,208 @@
+/* CSS Document */
+{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+a#pc1{
+	margin-top: 20px;
+	width: 700px;
+	height: 510px;
+	float: left;
+	text-decoration: none;
+    color:#818753 ;
+}
+p{
+	font-size: 20px;
+}
+a:hover p{
+	color: #818753;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin: 0px 15px -20px;
+	color:#818753 ;
+	
+}
+.menu img:hover{
+	opacity: 0;
+}
+.slice{
+	margin-top: 20px;
+	position: relative;
+}
+.slice .left{
+	width: 450px;
+	position: absolute;
+	left: 75px;
+	top: 150px;
+}
+.slice .left h2{
+	font-size: 80px;
+	color: #464444;
+}
+.left p{
+	margin-top: 20px;
+}
+.btn{
+	padding: 15px 55px;
+	background-color: #758dba;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	margin-left: 20px;
+}
+.btn:hover{
+	background-color: #464444;
+}
+.slice .right{
+	position: absolute;
+	bottom: 100px;
+	right: 90px;}	
+.bannerLeft{
+	width: 700px;
+	height: 510px;
+	float: left;
+	background-image: url(img/hihi/banner_3.jpg);
+	background-size: cover;
+	position: relative;
+}
+.bannerRight{
+	width: 500px;
+	height: 590px;
+	float:right;
+	background-image: url("img/hihi/banner_4.jpg");
+	background-size: cover;
+    position: relative;
+}
+.textL{
+	position: absolute;
+	left: 180px;
+	bottom: 35px;
+	font-size: 60px;
+	color:#818753 ;
+}
+.view1{
+	position: absolute;
+	bottom: 40px;
+	left: 350px;
+	text-transform: uppercase;
+}
+.textR{
+	position: absolute;
+	left: 20px;
+	top: 160px;
+	font-size: 60px;
+	color: #818753;
+}
+.view2{
+	position: absolute;
+	top: 350px;
+	left: 50px;
+	text-transform: uppercase;
+}
+#title{
+	margin-bottom: 20px;
+	font-size: 70px;
+}
+.sp, .ten, .gia, .mua {
+	width: 245px;
+	margin-left: 20px;
+	float: left;
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child {
+	margin-left: 0px;
+}
+.sp{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.ten p{
+	color: #464444;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.gia{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #818753;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.gia span{
+	font-size: 25px ;
+}
+.mua{
+	text-align: center ;
+}
+#banner1{
+	background-image: url('img/hihi/banner_1.jpg');
+	background-repeat: no-repeat;
+	width: 660px;
+	height: 340px;
+	float: left;
+	position: relative;
+	margin-top: 100px;
+}
+#banner2{
+	background-image: url('img/hihi/banner_2.jpg');
+	background-repeat: no-repeat;
+	width: 540px;
+	height: 680px;
+	float:left;
+	position: relative;
+	margin-top: 100px;
+}
+.textL2 {
+	position: absolute;
+	left: 380px;
+	bottom: 35px;
+	font-size: 60px;
+	color:#818753 ;
+}
+.view3 {
+	position: absolute;
+	bottom: 40px;
+	left: 450px;
+	text-transform: uppercase;
+}
+.textR2 {
+	position: absolute;
+	left: 400px;
+	top: 160px;
+	font-size: 60px;
+	color: #818753;
+}
+.view4 {
+	position: absolute;
+	top: 350px;
+	left: 450px;
+	text-transform: uppercase;
+}
+.about{
+	width: 500px;
+	float: left;
+}
+.contact{
+	width: 300px;
+	float: left;;
+}
+
